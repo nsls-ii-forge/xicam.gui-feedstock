@@ -29,10 +29,6 @@ requirements:
     - xicam.core
     - xicam.plugins
 
-test:
-  imports:
-    - xicam.gui
-
 about:
   home: "https://github.com/synchrotrons/Xi-cam.gui"
   license: "BSD 3-Clause"
