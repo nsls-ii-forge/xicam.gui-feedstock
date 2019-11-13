@@ -9,8 +9,6 @@ package:
 source:
   url: "https://github.com/synchrotrons/Xi-cam.gui/archive/{{ version }}.tar.gz"
   sha256: {{ sha256 }}
-  patches:
-    - remove-entrypoints.patch
 
 build:
   number: 0
