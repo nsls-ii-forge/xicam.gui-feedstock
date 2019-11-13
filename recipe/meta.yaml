@@ -1,6 +1,6 @@
 {% set name = "xicam.gui" %}
 {% set version = "2.2.3" %}
-{% set sha256 = "0F1BAA101F055019EC0C5A2ABF2AA72B60A63D2D7FA882FA5761BBFEC19A6C4D" %}
+{% set sha256 = "0f1baa101f055019ec0c5a2abf2aa72b60a63d2d7fa882fa5761bbfec19a6c4d" %}
 
 package:
   name: "{{ name|lower }}"
