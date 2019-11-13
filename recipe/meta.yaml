@@ -1,6 +1,6 @@
 {% set name = "xicam.gui" %}
-{% set version = "2.2.2" %}
-{% set sha256 = "d263466dd783af235b45d4571195a90b28cd3d06f368bd7cf12e6d6a467dc613" %}
+{% set version = "2.2.3" %}
+{% set sha256 = "0f1baa101f055019ec0c5a2abf2aa72b60a63d2d7fa882fa5761bbfec19a6c4d" %}
 
 package:
   name: "{{ name|lower }}"
@@ -9,8 +9,6 @@ package:
 source:
   url: "https://github.com/synchrotrons/Xi-cam.gui/archive/{{ version }}.tar.gz"
   sha256: {{ sha256 }}
-  patches:
-    - remove-entrypoints.patch
 
 build:
   number: 0
