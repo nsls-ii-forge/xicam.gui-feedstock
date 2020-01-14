@@ -1,6 +1,6 @@
 {% set name = "xicam.gui" %}
 {% set version = "2.2.5" %}
-{% set sha256 = "998ddbc483219679ff23f85b483c82dc793ab35954a3ee1d86ca616e4e98d063" %}
+{% set sha256 = "fa90930933329c06d9b1a38291c74df3718b60837ab46def73bb0fe15a91db8a" %}
 
 package:
   name: "{{ name|lower }}"
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv "
 
