@@ -1,6 +1,6 @@
 {% set name = "xicam.gui" %}
-{% set version = "2.2.4" %}
-{% set sha256 = "8ef5c184d4ef0f382e602dd9f14f65b954447e62621a70814ec4964f3069f1b7" %}
+{% set version = "2.2.5" %}
+{% set sha256 = "998ddbc483219679ff23f85b483c82dc793ab35954a3ee1d86ca616e4e98d063" %}
 
 package:
   name: "{{ name|lower }}"
@@ -28,6 +28,10 @@ requirements:
     - qtconsole
     - xicam.core
     - xicam.plugins
+
+test:
+  imports:
+    - xicam.gui
 
 about:
   home: "https://github.com/synchrotrons/Xi-cam.gui"
